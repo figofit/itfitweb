@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="ITFIT Vault placeholder">
+  <defs>
+    <radialGradient id="glow" cx="20%" cy="20%" r="70%">
+      <stop offset="0%" stop-color="#00ff41" stop-opacity="0.25" />
+      <stop offset="60%" stop-color="#00ff41" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#070a07" />
+      <stop offset="100%" stop-color="#0a0f0a" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)" />
+  <rect width="1200" height="800" fill="url(#glow)" />
+  <g stroke="#1b241b" stroke-width="2">
+    <rect x="40" y="40" width="1120" height="720" rx="24" fill="none" />
+  </g>
+  <g fill="#e7ece7" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace">
+    <text x="80" y="140" font-size="20" fill="#9aa49a">ITFIT Vault / placeholder</text>
+    <text x="80" y="210" font-size="54" fill="#00ff41">Váš kód je čistý.</text>
+    <text x="80" y="270" font-size="54" fill="#00ff41">Ale co váš hardware?</text>
+    <text x="80" y="340" font-size="20" fill="#9aa49a">Minimalismus • konzistence • fitness systém</text>
+  </g>
+  <g fill="#00ff41">
+    <circle cx="1060" cy="180" r="8" />
+    <circle cx="1085" cy="205" r="4" />
+    <circle cx="1035" cy="210" r="5" />
+  </g>
+</svg>
